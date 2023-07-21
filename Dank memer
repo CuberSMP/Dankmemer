@@ -1,0 +1,174 @@
+#NoEnv    
+SendMode Input  
+SetWorkingDir %A_ScriptDir%  
+
+
+; Version 2.0
+; Made by Everything Dude. Enjoy ;)
+
+F1::
+toggle = 1
+H = 0
+F = 0
+
+Send /
+Sleep 500
+Send u
+Sleep 500
+Send s
+Sleep 500
+Send e 
+Sleep 500
+Send {Space}
+Sleep 500
+Send h
+Sleep 500
+Send o
+Sleep 500
+Send r 
+Sleep 500
+Send s
+Sleep 500
+Send e
+Sleep 500
+Send s
+Sleep 500
+Send h 
+Sleep 500
+Send o
+Sleep 500
+Send e
+Send {Space}
+Send {Enter}
+
+Sleep 6000
+
+Send /
+Sleep 500
+Send u
+Sleep 500
+Send s
+Sleep 500
+Send e 
+Sleep 500
+Send {Space}
+Sleep 500
+Send p
+Sleep 500
+Send i
+Sleep 500
+Send z 
+Sleep 500
+Send z
+Sleep 500
+Send a
+Send {Space}
+Send {Enter}
+
+While toggle
+{
+Send /
+Sleep 500
+Send b
+Sleep 500
+Send e
+Sleep 500
+Send g 
+Sleep 500
+Send {Space}
+Send {Enter}
+Sleep 12000
+Send /
+Sleep 500
+Send h
+Sleep 500
+Send u
+Sleep 500
+Send n
+Sleep 500
+Send t
+Sleep 500
+Send {Space}
+Send {Enter}
+Sleep 10000
+Send /
+Sleep 500
+Send f
+Sleep 500
+Send i
+Sleep 500
+Send s
+Sleep 500
+Send h
+Sleep 500
+Send {Space}
+Send {Enter}
+Sleep 10000
+Send /
+Sleep 500
+Send d
+Sleep 500
+Send i
+Sleep 500
+Send g 
+Sleep 500
+Send {Space}
+Send {Enter}
+Sleep 15000
+H = H + 1
+F = F + 1
+if H == 20 {
+    H = 0
+    Send /
+    Sleep 500
+    Send u
+    Sleep 500
+    Send s
+    Sleep 500
+    Send e 
+    Sleep 500
+    Send {Space}
+    Sleep 500
+    Send h
+    Sleep 500
+    Send o
+    Sleep 500
+    Send r 
+    Sleep 500
+    Send s
+    Sleep 500
+    Send e
+    Sleep 500
+    Send s
+    Sleep 500
+    Send h 
+    Sleep 500
+    Send o
+    Sleep 500
+    Send e
+    Send {Space}
+    Send {Enter}
+}
+if F == 80 {
+    F = 0
+    Send /
+    Sleep 500
+    Send u
+    Sleep 500
+    Send s
+    Sleep 500
+    Send e 
+    Sleep 500
+    Send {Space}
+    Sleep 500
+    Send p
+    Sleep 500
+    Send i
+    Sleep 500
+    Send z 
+    Sleep 500
+    Send z
+    Sleep 500
+    Send a
+    Send {Space}
+    Send {Enter}
